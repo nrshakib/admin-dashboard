@@ -10,6 +10,7 @@ const Home = () => {
             <div className="home-container">
                 <Navbar></Navbar>
                 Home
+                Home
             </div>
         </div>
     );
