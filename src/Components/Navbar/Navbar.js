@@ -1,5 +1,6 @@
 import React from 'react';
 import './Navbar.scss';
+import tom from '../../images/tom.png';
 
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 import LanguageOutlinedIcon from '@mui/icons-material/LanguageOutlined';
@@ -23,19 +24,27 @@ const Navbar = () => {
                         English
                     </div>
                     <div className="item">
-                        <DarkModeOutlinedIcon />
+                        <DarkModeOutlinedIcon className='icon' />
                     </div>
                     <div className="item">
-                        <FullscreenExitOutlinedIcon />
+                        <FullscreenExitOutlinedIcon className='icon' />
                     </div>
                     <div className="item">
-                        <NotificationsNoneOutlinedIcon />
+                        <NotificationsNoneOutlinedIcon className='icon' />
+                        <div className="counter">1</div>
                     </div>
                     <div className="item">
-                        <ChatBubbleOutlineOutlinedIcon />
+                        <ChatBubbleOutlineOutlinedIcon className='icon' />
+                        <div className="counter">2</div>
                     </div>
                     <div className="item">
-                        <ListOutlinedIcon />
+                        <ListOutlinedIcon className='icon' />
+                    </div>
+                    <div className="item">
+                        <img src={tom}
+                            alt=""
+                            className='avatar'
+                        />
                     </div>
                 </div>
             </div>
