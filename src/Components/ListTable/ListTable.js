@@ -6,9 +6,9 @@ import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
-import "./List.scss"
+import "./ListTable.scss"
 
-const List = () => {
+const ListTable = () => {
     const rows = [
         {
             id: 1143155,
@@ -98,4 +98,4 @@ const List = () => {
     );
 };
 
-export default List;
+export default ListTable;

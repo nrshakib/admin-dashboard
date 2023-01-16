@@ -3,9 +3,9 @@ import Chart from '../../Components/Chart/Chart';
 import Featured from '../../Components/Featured/Featured';
 import Navbar from '../../Components/Navbar/Navbar';
 import Sidebar from '../../Components/Sidebar/Sidebar';
-import Table from '../../Components/List/List';
 import Widget from '../../Components/Widget/Widget';
 import './Home.scss';
+import ListTable from '../../Components/ListTable/ListTable';
 
 const Home = () => {
     return (
@@ -25,7 +25,7 @@ const Home = () => {
                 </div>
                 <div className="listContainer">
                     <div className="listTitle">Latest Transactions</div>
-                    <Table></Table>
+                    <ListTable></ListTable>
                 </div>
             </div>
         </div>
