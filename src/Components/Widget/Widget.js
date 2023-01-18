@@ -2,7 +2,7 @@ import React from 'react';
 import './Widget.scss';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
-import { AccountBalanceWalletOutlined, Difference, MonetizationOnOutlined, ShoppingCartOutlined } from '@mui/icons-material';
+import { AccountBalanceWalletOutlined, MonetizationOnOutlined, ShoppingCartOutlined } from '@mui/icons-material';
 
 
 const Widget = ({ type }) => {

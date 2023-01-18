@@ -2,9 +2,9 @@ import React from 'react';
 import DataTable from '../../Components/DataTable/DataTable';
 import Navbar from '../../Components/Navbar/Navbar';
 import Sidebar from '../../Components/Sidebar/Sidebar';
-import './List.scss';
+import './Users.scss';
 
-const List = () => {
+const Users = () => {
     return (
         <div className="list">
             <Sidebar></Sidebar>
@@ -16,4 +16,4 @@ const List = () => {
     );
 };
 
-export default List;
+export default Users;
