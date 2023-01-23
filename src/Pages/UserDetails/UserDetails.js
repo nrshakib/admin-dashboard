@@ -1,15 +1,15 @@
 import React from 'react';
-import './Single.scss';
+import './UserDetails.scss';
 import Sidebar from '../../Components/Sidebar/Sidebar';
 import Navbar from '../../Components/Navbar/Navbar';
 import Chart from '../../Components/Chart/Chart';
 import ListTable from '../../Components/ListTable/ListTable';
 
-const Single = () => {
+const UserDetails = () => {
     return (
-        <div className="single">
+        <div className="userDetails">
             <Sidebar></Sidebar>
-            <div className="singleContainer">
+            <div className="detailContainer">
                 <Navbar></Navbar>
                 <div className="top">
                     <div className="left">
@@ -54,4 +54,4 @@ const Single = () => {
     );
 };
 
-export default Single;
+export default UserDetails;
