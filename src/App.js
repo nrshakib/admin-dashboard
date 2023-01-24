@@ -6,10 +6,15 @@ import List from './Pages/Users/Users';
 import UserDetails from './Pages/UserDetails/UserDetails';
 import { productInputs, userInputs } from './formSource';
 import NewAdds from './Pages/NewAdds/NewAdds';
+import './Style/dark.scss';
+import { useContext } from 'react';
+import { DarkModeContext } from './Context/darkModeContext';
 
 function App() {
+
+  const { darkMode } = useContext(DarkModeContext);
   return (
-    <div className="App">
+    <div className={darkMode ? 'app dark' : 'app'}>
       <BrowserRouter basename='admin-dashboard'>
         <Routes>
           <Route path='/'>
